@@ -1,3 +1,14 @@
-export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-}
+import React from "react";
+import Contact from "@/components/Contact";
+import Form from "@/components/Form";
+
+const index = () => {
+  return (
+    <div className="flex bg-[#FFFFFF]">
+      <Contact />
+      <Form />
+    </div>
+  );
+};
+
+export default index;

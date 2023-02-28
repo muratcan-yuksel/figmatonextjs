@@ -1,0 +1,43 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "html": "html",
+    "css": "css"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDelete": false,
+  "emmet.triggerExpansionOnTab": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.inlineSuggest.enabled": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.startupEditor": "none",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true,
+    "vue": true,
+    "javascript": true,
+    "css": true
+  },
+  "workbench.editor.splitInGroupLayout": "vertical",
+  // "editor.hover.enabled": false
+  "mochaExplorer.files": "tests/**/*.{j,t}s",
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "workbench.colorTheme": "SynthWave '84",
+  "hardhat.telemetry": true,
+  "[solidity]": {
+    "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+  },
+  "svelte.plugin.svelte.note-new-transformation": false,
+  "svelte.enable-ts-plugin": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
+  "workbench.iconTheme": "material-icon-theme",
+  "playwright.reuseBrowser": true
+}
