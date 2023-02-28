@@ -1,7 +1,19 @@
 import React from "react";
 import Collection from "./Collection";
+import house from "@/assets/house.png";
+import email from "@/assets/email.png";
+import phone from "@/assets/phone.png";
 
 const Contact = () => {
+  const data = [
+    {
+      title: "Our Location",
+      para: "99 S.t Jomblo Park Pekanbaru 28292. Indonesia",
+      icon: house,
+    },
+    { title: "Phone Number", para: "(+62)81 414 257 9980", icon: phone },
+    { title: "Email Address", para: "info@yourdomain.com", icon: email },
+  ];
   return (
     <div className="w-1/2 h-screen border px-28 py-32">
       <h5 className="text-[#3056D3] font-semibold text-[16px] leading-5 mb-2">
@@ -16,7 +28,14 @@ const Contact = () => {
         praesentium? Exercitationem natus optio debitis quos recusandae
         assumenda? Aperiam, accusantium id.
       </p>
-      <Collection />
+      {data.map((item, index) => (
+        <Collection
+          key={index}
+          title={item.title}
+          para={item.para}
+          icon={item.icon}
+        />
+      ))}
     </div>
   );
 };
