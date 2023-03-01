@@ -15,7 +15,7 @@ const Contact = () => {
     { title: "Email Address", para: "info@yourdomain.com", icon: email },
   ];
   return (
-    <div className="w-1/2 h-screen border px-28 py-32">
+    <div className=" h-full border  p-10 lg:px-28 lg:py-32    ">
       <h5 className="text-[#3056D3] font-semibold text-[16px] leading-5 mb-2">
         Contact Us
       </h5>

@@ -4,9 +4,13 @@ import Form from "@/components/Form";
 
 const index = () => {
   return (
-    <div className="flex bg-[#FFFFFF]">
-      <Contact />
-      <Form />
+    <div className="flex  flex-col md:flex-row bg-[#FFFFFF]">
+      <div className="w-full ">
+        <Contact />
+      </div>
+      <div className="w-full ">
+        <Form />
+      </div>
     </div>
   );
 };
