@@ -2,8 +2,8 @@ import React from "react";
 
 const Form = () => {
   return (
-    <div className="  h-full border  p-10 lg:px-28 lg:py-32 ">
-      <div className="bg-[#FFFFFF] border h-full w-full p-10">
+    <div className="  h-full   p-10 lg:px-28 lg:py-32 ">
+      <div className="bg-[#FFFFFF] drop-shadow-lg  h-full w-full p-10">
         <input
           type="text"
           placeholder="Your Name "

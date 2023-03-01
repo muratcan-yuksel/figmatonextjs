@@ -15,11 +15,11 @@ const Contact = () => {
     { title: "Email Address", para: "info@yourdomain.com", icon: email },
   ];
   return (
-    <div className=" h-full border  p-10 lg:px-28 lg:py-32    ">
+    <div className=" h-full   p-10 lg:px-28 lg:py-32    ">
       <h5 className="text-[#3056D3] font-semibold text-[16px] leading-5 mb-2">
         Contact Us
       </h5>
-      <h1 className="text-[#212B36] font-bold text-[40px] leading-10 mb-7">
+      <h1 className="text-[#212B36] font-bold text-[40px] lg:text-[35px] leading-10 mb-7">
         Get In Touch With Us
       </h1>
       <p className="text-[#637381] text-[16px] leading-7">
